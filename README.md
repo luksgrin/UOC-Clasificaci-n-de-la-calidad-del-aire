@@ -15,9 +15,9 @@ Variables del dataset:
 - Features: El dataset contiene 8 features en 8 columnas que son los parámetros medidos por los diferentes sensores. Estos corresponden a las diferentes interacciones que han tenido los haces de los láseres al travesar las partículas del aire.
 - Target: El target corresponde al 'label' que clasifica la calidad del aire.
 
-Target 0 corresponde a una calidad del aire Buena
-Target 1 corresponde a una calidad del aire Moderada
-Target 2 corresponde a una calidad del aire Peligrosa
+Target 0 corresponde a una calidad del aire Buena.
+Target 1 corresponde a una calidad del aire Moderada.
+Target 2 corresponde a una calidad del aire Peligrosa.
 
 ## Archivos:
 
