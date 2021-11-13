@@ -30,3 +30,22 @@ El objetivo del reto será realizar un modelo predictivo basado en Random Forest
 Una vez se haya hecho y entrenado el modelo predictivo, éste se tendrá que emplear con los features del dataset de testing `uoc_test_X.csv`. Las predicciones se tendrán que entregar en formato `csv`. Donde tendrá que aparecer tan solo una columna en la que en la primera fila habrá un texto cualquiera y las predicciones empezarán en la fila 2.
 
 La calidad de la predicción se medirá a partir del f1-score(macro).
+
+# Solución
+
+El código para la resolución de esta cuestión se encuentra íntegramente en el fichero `main.py`. Para la elaboración de este código se ha empleado `Python 3.9.5`. Al ejecutar la isntrucción `python main.py` en la terminal, se obtiene el mensaje de ayuda:
+
+```
+usage: main.py [-h] trnf tstf
+
+Create and run a Random Forest on some data.
+
+positional arguments:
+  trnf        Filepath of dataset used to train the model. Must be in `.csv`.
+  tstf        Filepath of dataset used to test the model. Must be in `.csv`.
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
+
+Es de particular importancia resaltar que los conjuntos de datos a emplear sean `.csv` que usen como separador la coma ("`,`") y no un punto y coma ("`;`"), que es el formato de los ficheros proporcionados para el hackaton.
